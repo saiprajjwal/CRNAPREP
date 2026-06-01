@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CRNA school interview preparation dashboard with mock interviews, clinical question bank, STAR builder, flashcards, and study tracking."
+    />
+    <meta name="theme-color" content="#eaf5f9" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <title>CRNA Interview Prep</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-lockup" aria-label="CRNA Interview Prep">
+          <span class="brand-mark" aria-hidden="true">C</span>
+          <div>
+            <p class="eyebrow">CRNA School Interview</p>
+            <h1>Interview Prep</h1>
+          </div>
+        </div>
+
+        <button class="mobile-menu-toggle" type="button" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <button class="nav-item active" data-view="dashboard" type="button">Dashboard</button>
+          <button class="nav-item" data-view="questions" type="button">Question Bank</button>
+          <button class="nav-item" data-view="mock" type="button">Mock Interview</button>
+          <button class="nav-item" data-view="star" type="button">STAR Builder</button>
+          <button class="nav-item" data-view="flashcards" type="button">Flashcards</button>
+          <button class="nav-item" data-view="tracker" type="button">Tracker</button>
+          <button class="nav-item" data-view="interview" type="button">Interview Day</button>
+        </nav>
+      </header>
+
+      <main id="main" class="main-content">
+        <section id="dashboard" class="view active" aria-labelledby="dashboard-title"></section>
+        <section id="questions" class="view" aria-labelledby="questions-title"></section>
+        <section id="mock" class="view" aria-labelledby="mock-title"></section>
+        <section id="star" class="view" aria-labelledby="star-title"></section>
+        <section id="flashcards" class="view" aria-labelledby="flashcards-title"></section>
+        <section id="tracker" class="view" aria-labelledby="tracker-title"></section>
+        <section id="interview" class="view" aria-labelledby="interview-title"></section>
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Interview preparation and study practice only. Confirm clinical ranges with current course materials,
+          facility protocols, and qualified educators.
+        </p>
+      </footer>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
