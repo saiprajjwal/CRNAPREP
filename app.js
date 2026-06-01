@@ -1031,7 +1031,7 @@ function renderDashboard() {
     <div class="hero">
       <div class="hero-content">
         <p class="hero-kicker">Confident, calm, clinically grounded</p>
-        <h2 id="dashboard-title">CRNA Interview Prep</h2>
+        <h2 id="dashboard-title">Pratima's CRNA Interview Prep</h2>
         <p>Practice clinical reasoning, emotional intelligence, leadership, and program-fit answers with a serious but encouraging structure.</p>
         <div class="hero-actions">
           <button class="button primary" type="button" data-action="quick-mock" data-value="12">Start mock interview</button>
